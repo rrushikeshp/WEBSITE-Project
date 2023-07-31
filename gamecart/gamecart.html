@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Cart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      background-image: url("C:\Users\nadee\OneDrive\Desktop\gamecart\gamecartbg-transformed.jpeg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .logo {
+      max-width: 200px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .game-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 30px;
+    }
+      
+     
+
+     .game-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      background-color: #ccc;
+    }
+
+
+    .game-logo {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #ccc;
+      margin: 0 auto;
+      border-radius: 5px;
+    }
+
+    .game-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .game-description {
+       font-style: bold;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .game-price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: orange;
+      padding: 5px 10px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .game-download {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .download-button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 12px;
+      color: #EEE8F1;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1><img class="logo" src="C:\Users\nadee\OneDrive\Desktop\gamecart\gamecart-low-resolution-logo-white-on-black-background.png" alt="Logo"></h1>
+  </div>
+  <h2>Low Price Big Games!!!</h2>
+  <div class="game-container">
+    <div class="game-card">
+      <img class="game-logo" src="C:\Users\nadee\OneDrive\Desktop\gamecart\epicgameslogo.jpg" alt="EPICGAMES">
+      <div class="game-title">EPICGAMES</div>
+      <div class="game-description">Get games with special offers on Epic Games this week.</div>
+      <div class="game-price">$9.99</div>
+      <div class="game-download">
+        <a class="download-button" href="https://store.epicgames.com/en-US/sales-and-specials/mega-sale">Download</a>
+      </div>
+    </div>
+    <div class="game-card">
+      <img class="game-logo" src="C:\Users\nadee\OneDrive\Desktop\gamecart\steamlogo.png" alt="STEAM">
+      <div class="game-title">STEAM</div>
+      <div class="game-description">Get discounted games on Steam this week.</div>
+      <div class="game-price">$14.99</div>
+      <div class="game-download">
+        <a class="download-button" href="https://store.steampowered.com/sale/JackboxGamesWeekendSale">Download</a>
+      </div>
+    </div>
+    <div class="game-card">
+      <img class="game-logo" src="C:\Users\nadee\OneDrive\Desktop\gamecart\GOGlogo.jpg" alt="GOG.com">
+      <div class="game-title">GOG.com</div>
+      <div class="game-description">Get games at a low price on GOG this week.</div>
+      <div class="game-price">$7.99</div>
+      <div class="game-download">
+        <a class="download-button" href="https://www.gog.com/en/promo/20230522_weekly_sale">Download</a>
+      </div>
+    </div>
+    <!-- Add more game cards as needed -->
+  </div>
+  <div class="footer">
+    &copy; 2023 Low Price Game Cart. All rights reserved.
+  </div>
+</body>
+</html>
